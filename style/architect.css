@@ -16,6 +16,8 @@
 }
 .bg-lite{
                 background-color: rgba(255, 144, 14, 0.1);
+                max-width: 1440px;
+                height: 700px;
 }
 .navbar{
                 justify-content: space-between;
@@ -34,4 +36,34 @@
                 font-weight: 500;
                 font-size: 1rem;
                 color: #424242;
+}
+/* shared style */
+.btn-primary{
+  background-color: #FF900E;
+  padding: 24px 21px;
+  color: white;
+  font-weight: 600px;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 50px;
+}
+
+/* banner related sytle */
+
+.banner-hero{
+  max-width: 862px;
+  text-align: center;
+}
+
+.banner-title{
+  font-weight: 700px;
+  font-size: 4rem;
+  color: #131313;
+  margin: 0 auto;
+}
+.banner-description{
+  font-weight: 400px;
+  font-size: 1rem;
+  color: #727272;
 }
