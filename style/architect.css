@@ -117,6 +117,73 @@
   align-items: center;
   gap: 15px;
 }
+
+/* feature section style */
+
+.features-section{
+  display: flex;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.feature-title{
+  padding-left: 20px;
+  border-left: 3px solid #FF900E;
+  font-weight: 700px;
+  font-size: 3rem;
+  color: #131313;
+}
+
+.features-card-title{
+  font-weight: 600px;
+  font-size: 1.25rem;
+  color: #131313;
+}
+
+.feature-card-description{
+  font-size: 1rem;
+  font-weight: 1rem;
+  color: #727272;
+}
+
+.features-description{
+  font-weight: 400px;
+  font-size: 1rem;
+  color: #727272;
+}
+
+.feature-card{
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+.btn{
+  width: 342px;
+  height: 200px;
+  background-color: #ff900e;
+  padding: 42px 45px;
+  color: white;
+  font-weight: 600px;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+  margin-top: -80px;
+  margin-left: -60px;
+
+}
+.first{
+  color: white;
+  font-weight: 700px;
+  font-size: 3rem;
+}
+.second{
+  font-weight: 500px;
+  font-size: 1.5rem;
+  color: white;
+}
+
 /* some fact section style */
 
 .some-fact-title{
@@ -154,6 +221,42 @@
   font-weight: 600px;
 }
 
+/* our sponsor section style */
+.Sponsor-container{
+  text-align: center;
+  margin-top: 80px;
+}
+.sponsor-title{
+  font-weight: 700px;
+  font-size: 3rem;
+  color: #131313;
+}
+.sponsor-description{
+  font-weight: 400px;
+  font-size: 1rem;
+  color: #727272;
+}
+.sponsor-image{
+  /* border: 1px solid salmon; */
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-image img{
+  filter: grayscale(100%);
+}
+
+/* footer section Style */
+footer{
+  margin: auto;
+  margin-top: 80px;
+  width: 92%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #FFF4E7;
+}
+
+
 /* responsive banner */
 @media screen and (max-width: 576px) {
   .nav-link,
@@ -184,7 +287,32 @@
     gap: 5px;
     width: 100%;
   }
+  .sponsor-image{
+    justify-items: center;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
   .fact{
 margin-left: 60px;
   }
+  .footer-text{
+    width: 50%;
+    text-align: center;
+  }
+
+  /* feature section responsive */
+  .features-section{
+    flex-direction: column;
+  }
+  .features-section{
+    text-align: center;
+  }
+  .feature-image img{
+    width: 100%;
+  }
+  .btn{
+    margin-top: 80px;
+    margin-left: 0;
+  }
+  
 }
