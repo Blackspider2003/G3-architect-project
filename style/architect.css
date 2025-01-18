@@ -82,7 +82,7 @@
 }
 .banner-img {
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
 }
 /* quick feature style */
 
@@ -115,6 +115,7 @@
 }
 .quick-list-section{
   align-items: center;
+  gap: 15px;
 }
 /* some fact section style */
 
@@ -178,7 +179,12 @@
   .some-fact-description{
     text-align: center;
   }
-  .fact{
+  .fact-container{
     grid-template-columns: 1fr;
+    gap: 5px;
+    width: 100%;
+  }
+  .fact{
+margin-left: 60px;
   }
 }
